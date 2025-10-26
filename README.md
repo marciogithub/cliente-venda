@@ -15,20 +15,25 @@ Fluxo de execução da API pela coleção POSTMAN ou SWAGGER acionar os endpoint
 
 1. Passo - Deve listar todos os clientes
    1.1 http://localhost:8009/clientes(Metodo Http: GET)
+   
 
  <img width="1486" height="842" alt="image" src="https://github.com/user-attachments/assets/ec419691-5a31-424c-9082-70d83e856f73" />
  
+ 
 2. Passo - Listar todos os produtos(Metodo Http: GET)
    2.1  http://localhost:8009/produtos
+
    
 <img width="1497" height="918" alt="image" src="https://github.com/user-attachments/assets/5353cd4e-289a-4cab-be21-82c548d48f13" />
 
+
 3. Passo - Criar pedido(Metodo Http: POST)
    3.1 http://localhost:8009/pedido
+   
 
    <img width="1488" height="975" alt="image" src="https://github.com/user-attachments/assets/cde60a7d-a1c0-4929-bf3b-9a3f4832bb0d" />
 
-4.  Passo - Buscar pedido por ID(Metodo Http: GET)
+5.  Passo - Buscar pedido por ID(Metodo Http: GET)
    4.1 http://localhost:8009/pedido/1
 
 <img width="1477" height="958" alt="image" src="https://github.com/user-attachments/assets/b8977ed5-ab5b-48c9-91c6-06924a07306d" />

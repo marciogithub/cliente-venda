@@ -1,5 +1,7 @@
 Trabalho final domodulo entrega 26-10-2025
 
+Tecnologias usadas: Java 17 e Spring boot 3.5.7
+
 Acesso ao banco de dados H2:
 http://localhost:8009/h2-console
 

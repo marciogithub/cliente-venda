@@ -1,12 +1,12 @@
 package br.com.venda.api.service;
 
 import br.com.venda.api.model.Produto;
+import br.com.venda.api.model.ProdutoContagem;
 import br.com.venda.api.repository.ProdutoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Optional;
 
 @Service
 public class ProdutoService {
@@ -22,7 +22,9 @@ public class ProdutoService {
         produtoRepository.save(produto);
     }
 
-    public Optional<Produto> buscarPorId(Long idProduto) {
-        return produtoRepository.findById(idProduto);
+    public ProdutoContagem contar() {
+        ProdutoContagem contagem = new ProdutoContagem();
+        contagem.setContagemProdutos(produtoRepository.count());
+        return contagem;
     }
 }

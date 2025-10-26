@@ -1,6 +1,7 @@
 package br.com.venda.api.controller;
 
 import br.com.venda.api.model.Produto;
+import br.com.venda.api.model.ProdutoContagem;
 import br.com.venda.api.service.ProdutoService;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,6 +22,11 @@ public class ProdutoController {
     @GetMapping
     public List<Produto> listarTodos(){
         return clienteService.listarTodos();
+    }
+
+    @GetMapping("/contagem")
+    public ProdutoContagem contagem(){
+        return clienteService.contar();
     }
 
 }

@@ -50,7 +50,7 @@ Fluxo de execução da API pela coleção POSTMAN ou SWAGGER acionar os endpoint
    6.2 Buscar pedido deletado
    6.3 http://localhost:8009/pedido/1
 
-7.  Passo - Deletar pedido por ID(Metodo Http: GET)
+7.  Passo - Contagme de pedido por ID(Metodo Http: GET)
    7.1 http://localhost:8009/produtos/contagem
 
 <img width="1479" height="786" alt="image" src="https://github.com/user-attachments/assets/b248989a-d72f-4bc6-893b-6e3ce69b9204" />
